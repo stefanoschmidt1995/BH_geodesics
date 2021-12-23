@@ -139,7 +139,7 @@ def plot(vals, sol, sol_newton):
 	plt.legend()
 
 	plt.figure()
-	plt.title("Trajectory")
+	plt.title("Trajectory '{}'".format(vals['name']))
 	plt.plot(x, y, label = label)
 	plt.xlabel("x/M")
 	plt.ylabel("y/M")
