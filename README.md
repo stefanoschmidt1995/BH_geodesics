@@ -63,16 +63,31 @@ You can also set several configurations in the same file. Make sure each sets of
 
 ## Examples
 
-In folder `plots`, you can find several ini file with some examples.
+In folder `plots`, you can find an ini file with some examples. Feel free to play with them and explore the different possibilities.
 
 Setting a zero initial velocity and negative energy, you will find strongly precessing orbits: the trajectory will look very nice.
 
+<p align="center">
+  <img src="https://github.com/stefanoschmidt1995/BH_geodesics/blob/master/plots/nice_elliptic_trajectory.jpeg">
+</p>
+
 If we set a non zero outward radial velocity (still keeping negative total energy) we will obtain strongly precessing, strongly eccentric orbits.
+
+<p align="center">
+  <img src="https://github.com/stefanoschmidt1995/BH_geodesics/blob/master/plots/elliptic_trajectory.jpeg">
+</p>
 
 We can also set a positive total energy to obtain an hyperbolic trajectory. Starting far away from the BH and setting a large angular momentum, the path of the object will be slightly deviated.
 
+<p align="center">
+  <img src="https://github.com/stefanoschmidt1995/BH_geodesics/blob/master/plots/hyperbolic_trajectory.jpeg">
+</p>
+
 If we start closer to the black hole, the gravitational deviation effect will be much much higher.
 
+<p align="center">
+  <img src="https://github.com/stefanoschmidt1995/BH_geodesics/blob/master/plots/strong_hyperbolic_trajectory.jpeg">
+</p>
 
 Note that in every case, the effect of Newtonian physics and those of GR are very different! This is only because a 1/r**3 term in the potential: cool, isn't it?
 
