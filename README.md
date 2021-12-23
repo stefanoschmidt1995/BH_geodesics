@@ -91,6 +91,12 @@ If we start closer to the black hole, the gravitational deviation effect will be
 
 Note that in every case, the effect of Newtonian physics and those of GR are very different! This is only because a 1/r**3 term in the potential: cool, isn't it?
 
+Of course, GR is not always important. If we take the case of the earth orbiting around the sun, the Newtonian physics works just fine:
+
+<p align="center">
+  <img src="https://github.com/stefanoschmidt1995/BH_geodesics/blob/master/plots/earth_sun_trajectory.jpeg">
+</p>
+
 ## Author
 
 This was part of the tutorial for a GR course at Utrecht Univerisity. If you want more information, please feel free to send me an email: [stefanoschmidt1995@gmail.com](mailto:stefanoschmidt1995@gmail.com)

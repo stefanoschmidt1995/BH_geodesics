@@ -146,7 +146,7 @@ def plot(vals, sol, sol_newton):
 	if vals['compare']:
 		x_N, y_N = to_cartesian(sol_newton['y'][0,:], sol_newton['y'][1,:])
 		plt.plot(x_N, y_N, label = 'Newton')
-	plt.legend()
+	plt.legend(loc = 'upper right')
 	plt.plot(0, 0, 'o', lw = .5, c = 'red')
 	plt.plot(x[0], y[0], 'x', lw = 4, c = 'red')
 	circle=plt.Circle((0,0),2, facecolor = 'k', edgecolor = 'k', lw = 2)
